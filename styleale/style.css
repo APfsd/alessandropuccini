@@ -1,0 +1,334 @@
+/**********GENERAL************/
+*{
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+body { 
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+img {
+	width: 100%;
+}
+
+.active {
+	color: #0099ff;
+}
+.container {
+	max-width: 1520px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.item {
+	width: 33.3333%;
+	padding: 5px;
+}
+#main-content {
+	padding-top: 117px;
+
+}
+
+#main-content .itemhome {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+}
+#main-content .container {
+	border-top: 1px solid #000000;
+}
+
+
+
+
+main {
+	min-height: calc(100vh - 117px - 85px);
+}
+
+/***********HEADER***********/
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 140px;
+	background-color:  #99e6e6;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+#logocontainer .name{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#logocontainer {
+	align-items: center;
+	padding-left: 10px; 
+   
+}
+
+
+#nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.name h1 {
+	padding-bottom: 7px;
+	font-size: 3.2rem;
+
+}
+
+#nav ul li{
+	
+	list-style-type: none;
+	display: inline-block;
+	font-size: 1.6rem;
+	padding: 10px;
+	padding-right: 10px;
+
+}
+
+
+
+/**********************GALLERY**************/
+
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+#galleryworks {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+}
+#galleryworks .itemworks{
+	padding: 15px;
+}
+
+.subtitle {
+	font-weight: bolder;
+}
+
+
+/***********************CONTENT*****************************/
+
+
+
+
+/*****************************ABOUT*****************************/
+
+#about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.profile-pic {
+	width: 35%;
+	padding: 25px;
+}
+.description{
+	width: 50%;
+	padding: 45px;
+	text-align: justify;
+}
+.description p {
+	line-height: 2.0rem;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+} 
+
+
+
+/********************************CONTACT*****************************/
+
+#contact {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.info {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.info p {
+	line-height: 2.0rem;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+
+	text-align: justify;
+}
+
+.contatti {
+	width: 50%;	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-left: 250px;
+
+}
+
+
+.contatti ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+
+
+/**************************FOOTER***********************************/
+
+footer .social img{
+   width: 25px;
+   padding: 3px;
+}
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.copyright{
+  color:   #999999;
+  padding-left: 6px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+/****************************HEADER***************/
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	background-color:  #99e6e6;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	padding: 0px;
+
+}
+#logocontainer {
+
+	width: 100%;
+	padding-left: 0px;
+}
+
+#logocontainer .name {
+	justify-content: center;
+}
+
+#nav {
+	width: 100%;
+	justify-content: center;
+}
+#nav ul {
+	padding-left: 0px;
+}
+
+
+/********************CONTENT************/
+
+#main-content {
+	padding-top: 153px;
+}
+
+
+/*******************ABOUT*****************/
+
+#about{
+	padding-top: 0px;
+	flex-direction: column;
+}
+#about .profile-pic{
+	width: 100%;
+}
+#about .description {
+	width: 100%;
+	padding: 25px;
+}
+#about .title {
+	text-align: center;
+}
+
+/****************CONTACT***************/
+
+#contact .info{
+	width: 100%;
+}
+
+#contact .contatti{
+	width: 100%;
+	padding-left: 0px;
+	justify-content: center;
+}
+#contact h1{
+	text-align: center;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-widht: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-widht: 992px) {
+
+}
